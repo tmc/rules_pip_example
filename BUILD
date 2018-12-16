@@ -7,6 +7,7 @@ compile_pip_requirements(
     python_interpreter = "python3",
     requirements_in = "//:requirements.in",
     requirements_txt = "requirements.txt",
+    header = "# This file was generated. Do not edit.",
 )
 
 py_binary(
