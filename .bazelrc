@@ -1,0 +1,1 @@
+run --python_top=@com_github_tmc_rules_pip//runtime:dynamic
