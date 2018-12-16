@@ -3,9 +3,9 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
     name = "com_github_tmc_rules_pip",
-    strip_prefix = "rules_pip-5b3530ef14d15b7df2b409a33e9deb2ef4414d93",
-    url = "https://github.com/tmc/rules_pip/archive/5b3530ef14d15b7df2b409a33e9deb2ef4414d93.zip",
-    sha256 = "1b06279dd21631b5454b2277271cae62b296616f46c6f6fbd945c35732775f41",
+    strip_prefix = "rules_pip-7b4fd90b1885648ea650781c1f2e81e06f95b996",
+    url = "https://github.com/tmc/rules_pip/archive/7b4fd90b1885648ea650781c1f2e81e06f95b996.zip",
+    sha256 = "c2661220886764ab9cfe9cc8e1546ab16f5b00badb1c515442b4e50a9f1c22f8",
 )
 # git_repository(
 #     name = "com_github_tmc_rules_pip",
